@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@color/back_ground_color"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.grandilo.qa.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:text="@string/home_title"/>
+
+    <Button
+        android:id="@+id/take_a_test_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/text_title_size"
+        android:layout_marginLeft="@dimen/button_margin"
+        android:layout_marginRight="@dimen/button_margin"
+        android:background="@color/button_color"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        android:text="@string/take"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_of_title_margin"/>
+
+    <Button
+        android:id="@+id/study_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/text_title_size"
+        android:layout_marginLeft="@dimen/button_margin"
+        android:layout_marginRight="@dimen/button_margin"
+        android:background="@color/button_color"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        android:text="@string/study"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_of_title_margin"/>
+    <Button
+        android:id="@+id/history_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/text_title_size"
+        android:layout_marginLeft="@dimen/button_margin"
+        android:layout_marginRight="@dimen/button_margin"
+        android:background="@color/button_color"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        android:text="@string/history"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_of_title_margin"/>
+
+
+</LinearLayout>
