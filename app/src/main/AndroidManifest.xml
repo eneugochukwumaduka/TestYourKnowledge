@@ -27,6 +27,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.grandilo.qa.MainActivity" />
         </activity>
+        <activity
+            android:name=".HistoryActivty"
+            android:label="@string/title_activity_history_activty"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

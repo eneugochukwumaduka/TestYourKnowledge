@@ -6,4 +6,5 @@
     <string name="study">Studty</string>
     <string name="home_title">Java Practice</string>
     <string name="title_activity_take_atest">Take A Test</string>
+    <string name="title_activity_history_activty">History</string>
 </resources>
